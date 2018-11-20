@@ -1,0 +1,15 @@
+{
+  "name": "test_sonar_coverage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "mocha-sonarqube-reporter": "^1.0.1"
+  }
+}

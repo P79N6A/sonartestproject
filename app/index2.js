@@ -1,11 +1,11 @@
 function abc(number){
-	a = number
+	var a = number
 	pqr(a)
 }
 
 function pqr(number){
-	b = number
+	var b = number
 	console.log(b);
 }
 
-//abc(2);
+abc(2);

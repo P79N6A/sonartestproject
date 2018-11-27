@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "ci-test": "istanbul cover ./node_modules/.bin/_mocha app/*.js"
+    "ci-test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha app/*.js"
   },
   "author": "",
   "license": "ISC",

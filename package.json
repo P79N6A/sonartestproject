@@ -4,14 +4,15 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "ci-test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha app/*.js"
+    "ci-test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha ./app/*.js"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "istanbul-cobertura-badger": "^1.3.1",
     "jest-sonar-reporter": "^2.0.0",
     "mocha": "^5.2.0",
-    "mocha-sonarqube-reporter": "^1.0.1"
+    "mocha-sonarqube-reporter": "^1.0.1",
+    "istanbul": "^0.4.5"
   }
 }
